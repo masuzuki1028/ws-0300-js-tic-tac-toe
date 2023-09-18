@@ -6,12 +6,11 @@
   <link href="stylesheets/index.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
-  <div class="container">
+  <div class="l-container">
     <!-- write your html -->
-    <main>
-      <header>
+    <main class="main">
+      <header class="header">
         <h1>Tic Tac Toe</h1>
-        <h2>Tic Tac Toe</h1>
       </header>
       <div>
         <div>◯</div>
@@ -38,9 +37,12 @@
           </tbody>
         </table>
       </div>
-      <div>
+      <div class="l-footer footer">
         <div>message</div>
-        <button>RESTART</button>
+        <div class="state-message js-state-message">starting...</div>
+        <div>
+          <a class="button js-restart">RESTART</a>
+      </div>
       </div>
     </main>
   </div>
